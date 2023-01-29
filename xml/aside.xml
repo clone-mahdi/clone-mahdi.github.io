@@ -1,0 +1,65 @@
+<section>
+   <h4>مطالب آموزشی</h4>
+   <div>
+      <a class="box">
+         <i class="fa fa-earth"></i>
+         <p>آموزش HTML</p>
+      </a>
+      <a class="box">
+         <i class="fab fa-css3-alt"></i>
+         <p>آموزش CSS</p>
+      </a>
+      <a class="box">
+         <i class="fab fa-js-square"></i>
+         <p>آموزش جاوااسکریپت</p>
+      </a>
+      <a class="box">
+         <i class="fa fa-bezier-curve"></i>
+         <p>آموزش SVG</p>
+      </a>
+      <a class="box">
+         <i class="fa fa-fire"></i>
+         <p>ترفند ها</p>
+      </a>
+   </div>
+</section>
+<section>
+   <h4>ترفند ها</h4>
+   <div>
+      <a class="box">
+         <p></p>
+         <p>ساخت چک‌باکس‌های جالب</p>
+         <p></p>
+      </a>
+      <a class="box">
+         <p></p>
+         <p>ساخت آکاردئون</p>
+         <p></p>
+      </a>
+      <a class="box">
+         <p></p>
+         <p>ساخت همبرگر css</p>
+         <p></p>
+      </a>
+   </div>
+</section>
+<section>
+   <h4>دمو ها و ابزار ها</h4>
+   <div>
+      <a class="box">
+         <p></p>
+         <p>اموجی بساز</p>
+         <p></p>
+      </a>
+      <a class="box">
+         <p></p>
+         <p>file to base64</p>
+         <p></p>
+      </a>
+      <a class="box">
+         <p></p>
+         <p>svg to png</p>
+         <p></p>
+      </a>
+   </div>
+</section>

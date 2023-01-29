@@ -1,0 +1,14 @@
+<div class="pad">
+   <div class="contact-us">
+      <h4>ارتباط با من</h4>
+      <div>
+         <a class="ic fab fa-github" target="_blank" href="https://github.com/clone-mahdi"></a>
+         <a class="ic fab fa-instagram" target="_blank" href="https://instagram.com/clone_mahdi"></a>
+         <a class="ic fab fa-telegram" target="_blank" href="http://t.me/clone_mahdi"></a>
+         <a class="ic fas fa-envelope" target="_blank" href="mailto:mahdi41.202@gmail.com"></a>
+      </div>
+   </div>
+   <div class="copyright">
+      <p> <i class="fas fa-copyright"></i> استفاده از مطالب این سایت با درج لینک مستقیم بلامانع است</p>
+   </div>
+</div>

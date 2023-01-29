@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+   <g stroke="#fff" stroke-linecap="round" stroke-width="30">
+      <line x1="50" y1="50" x2="150" y2="150">
+         <animateTransform attributeName="transform" type="rotate" from="0 100 100" to="360 100 100" dur="10s" repeatCount="indefinite"/>
+      </line>
+      <line x1="250" y1="250" x2="350" y2="350">
+         <animateTransform attributeName="transform" type="rotate" from="0 300 300" to="-360 300 300" dur="10s" repeatCount="indefinite"/>
+      </line>
+   </g>
+</svg>

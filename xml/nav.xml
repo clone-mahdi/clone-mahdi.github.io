@@ -1,0 +1,24 @@
+<a class="box">
+   <i class="fa fa-home"></i>
+   <p>صفحه اصلی</p>
+</a>
+<a class="box">
+   <i class="fa fa-list"></i>
+   <p>لیست آموزشی</p>
+</a>
+<a class="box">
+   <i class="fa fa-book-bookmark"></i>
+   <p>مرجع</p>
+</a>
+<a class="box">
+   <i class="fa fa-wrench"></i>
+   <p>ابزار</p>
+</a>
+<a class="box">
+   <i class="fa fa-code"></i>
+   <p>دموها</p>
+</a>
+<a class="box" href="/page/about-me">
+   <i class="fa fa-user"></i>
+   <p>دربارهٔ من</p>
+</a>
