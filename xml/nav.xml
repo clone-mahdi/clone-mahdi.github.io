@@ -1,3 +1,4 @@
+<!--
 <a class="box">
    <i class="fa fa-home"></i>
    <p>صفحه اصلی</p>
@@ -18,7 +19,8 @@
    <i class="fa fa-code"></i>
    <p>دموها</p>
 </a>
-<a class="box" href="/page/about-me">
+<a class="box">
    <i class="fa fa-user"></i>
    <p>دربارهٔ من</p>
 </a>
+-->
