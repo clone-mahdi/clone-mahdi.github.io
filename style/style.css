@@ -218,13 +218,12 @@ nav{
 }
 main{
    grid-area: main;
+}
+main>.pad{
    background: var(--c1);
    margin: var(--mar);
    border-radius: var(--rad);
    backdrop-filter: var(--fe);
-}
-main>.pad{
-   margin: 10px;
 }
 .welcome .profile{
    text-align: center;
