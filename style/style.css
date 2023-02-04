@@ -185,7 +185,7 @@ header{
 .menu-backdrop.open+.menu{
    width: 70vw;
 }
-@media (min-width: 800px){
+@media (min-width:43.75em){
    .menu-backdrop.open+.menu{
       width: 30vw;
    }
