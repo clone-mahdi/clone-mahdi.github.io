@@ -194,6 +194,17 @@ header{
    background: var(--c3);
    text-align: center;
 }
+.title{
+   direction: auto;
+   user-select: all;
+   border-radius: var(--rad);
+   background: var(--c11);
+   overflow: auto;
+   color: var(--c7);
+   margin: 20px 20px 0 20px;
+   padding: 15px;
+   text-align: center;
+}
 .path{
    direction: ltr;
    user-select: all;
@@ -202,7 +213,8 @@ header{
    overflow: auto;
    color: var(--c7);
    margin: 20px 20px 0 20px;
-   padding: 20px;
+   padding: 15px;
+   text-align: center;
 }
 .menu-list{
 }
@@ -231,7 +243,7 @@ main>.pad{
    border-radius: var(--rad);
    backdrop-filter: var(--fe);
 }
-.welcome .profile, .title{
+.welcome .profile{
    text-align: center;
    font-family: "sirinStencil";
    font-size: 40px;
