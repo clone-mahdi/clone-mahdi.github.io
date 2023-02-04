@@ -1,6 +1,6 @@
 @font-face {
    font-family: "negaar";
-   src: url("../font/Negaar.ttf");
+   src: url("https://clone-mahdi.github.io/font/Negaar.ttf");
 }
 @font-face {
    font-family: "nova";
@@ -224,7 +224,7 @@ header{
    border-radius: 0;
    margin: 0 20px 0 20px;
    border-bottom: 4px solid var(--c11);
-   flex-direction: row;
+   flex-direction: row-reverse;
    background: var(--c12);
 }
 nav{
