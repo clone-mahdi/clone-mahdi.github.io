@@ -1,14 +1,14 @@
 @font-face {
    font-family: "negaar";
-   src: url("/font/negaar.ttf");
+   src: url("https://clone-mahdi.github.io/font/negaar.ttf");
 }
 @font-face {
    font-family: "nova";
-   src: url("/font/NovaMono.ttf");
+   src: url("https://clone-mahdi.github.io/font/NovaMono.ttf");
 }
 @font-face {
    font-family: "sirinStencil";
-   src: url("/font/sirinStencil.ttf");
+   src: url("https://clone-mahdi.github.io/font/sirinStencil.ttf");
 }
 @media (prefers-color-scheme: dark) {
    :root{
@@ -200,7 +200,7 @@ header{
    user-select: all;
    border-radius: var(--rad);
    background: var(--c11);
-   overflow: auto;
+   overflow-x: auto;
    color: var(--c7);
    margin: 20px 20px 0 20px;
    padding: 15px;
