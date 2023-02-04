@@ -323,7 +323,7 @@ footer{
 .contact-us>h4{
    line-height: 0;
 }
-a,a:visited{
+a{
    all: unset;
    display: inline-block;
    color: var(--c8);
@@ -342,7 +342,7 @@ a:not(.box,.fa,.ic)::after{
 a:hover::after{
    transform: rotateY(0deg);
 }
-a.box,a.box:visited{
+a.box{
    all: unset;
    display: flex;
    padding: 0 10px 0 10px;
@@ -376,11 +376,14 @@ nav>a>i{
    padding: 0;
    height: 10px;
 }
-a.ic,a.ic:visited{
+a.ic{
    display: inline-block;
    color: var(--c6);
    position: relative;
 }
 a.ic:hover{
    color: var(--c7);
+}
+mark{
+   padding: 2px;
 }
