@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
    
    //web icon
    WebIcon.onclick = ()=> {
-      open(IP)
+      open(IP,"_self")
    }
    
    // menu
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
    Ctitle.innerHTML = title.innerHTML
    
    //data
-   fetch("https://clone-mahdi.github.io/xml/nav.xml").then(x => x.text()).then(y => nav.innerHTML = menuList.innerHTML = y);
+   fetch("../xml/nav.xml").then(x => x.text()).then(y => nav.innerHTML = menuList.innerHTML = y);
    fetch("https://clone-mahdi.github.io/xml/aside.xml").then(x => x.text()).then(y => aside.innerHTML = y);
    fetch("https://clone-mahdi.github.io/xml/footer.xml").then(x => x.text()).then(y => footer.innerHTML = y);
 });
