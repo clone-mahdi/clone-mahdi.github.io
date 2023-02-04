@@ -195,6 +195,7 @@ header{
    text-align: center;
 }
 .title{
+   font-family: "negaar";
    direction: auto;
    user-select: all;
    border-radius: var(--rad);
