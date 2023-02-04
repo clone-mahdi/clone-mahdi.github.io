@@ -231,7 +231,7 @@ main>.pad{
    border-radius: var(--rad);
    backdrop-filter: var(--fe);
 }
-.welcome .profile{
+.welcome .profile, .title{
    text-align: center;
    font-family: "sirinStencil";
    font-size: 40px;

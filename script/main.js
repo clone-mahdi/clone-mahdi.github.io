@@ -9,6 +9,8 @@ document.addEventListener("DOMContentLoaded", ()=> {
    const menuBackdrop = document.querySelector(".menu-backdrop");
    const menu = document.querySelector(".menu");
    const menuList = document.querySelector(".menu-list");
+   const title = document.querySelector("title");
+   const Ctitle = document.querySelector(".title");
    const path = document.querySelector(".path");
    
    // menu
@@ -24,8 +26,11 @@ document.addEventListener("DOMContentLoaded", ()=> {
    //path
    path.innerHTML = document.baseURI;
    
+   // C title
+   Ctitle.innerHTML = title.innerHTML;
+   
    //data
-   fetch("../xml/nav.xml").then(x => x.text()).then(y => nav.innerHTML = menuList.innerHTML = y);
-   fetch("../xml/aside.xml").then(x => x.text()).then(y => aside.innerHTML = y);
-   fetch("../xml/footer.xml").then(x => x.text()).then(y => footer.innerHTML = y);
+   fetch("https://clone-mahdi.github.io/xml/nav.xml").then(x => x.text()).then(y => nav.innerHTML = menuList.innerHTML = y);
+   fetch("https://clone-mahdi.github.io/xml/aside.xml").then(x => x.text()).then(y => aside.innerHTML = y);
+   fetch("https://clone-mahdi.github.io/xml/footer.xml").then(x => x.text()).then(y => footer.innerHTML = y);
 });
