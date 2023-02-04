@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", ()=> {
+   const IP = "https://clone-mahdi.github.io/"
    const body = document.body;
    const header = document.querySelector("header");
    const nav = document.querySelector("nav");
@@ -8,10 +9,16 @@ document.addEventListener("DOMContentLoaded", ()=> {
    const bars = document.querySelector(".menu-bars");
    const menuBackdrop = document.querySelector(".menu-backdrop");
    const menu = document.querySelector(".menu");
+   const WebIcon = document.querySelector(".web-icon");
    const menuList = document.querySelector(".menu-list");
    const title = document.querySelector("title");
    const Ctitle = document.querySelector(".title");
    const path = document.querySelector(".path");
+   
+   //web icon
+   WebIcon.onclick = ()=> {
+      open(IP)
+   }
    
    // menu
    bars.onclick = ()=> {
