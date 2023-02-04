@@ -12,19 +12,19 @@
 }
 @media (prefers-color-scheme: dark) {
    :root{
-      --c0: hsl(20, 100%, 5%); /* body bg */
-      --c1: hsl(20, 100%, 10%, 1); /* main aside nav bg */
-      --c3: hsla(20, 100%, 50%, 0.7); /* header bg */
+      --c0: hsl(330, 100%, 5%); /* body bg */
+      --c1: hsl(330, 100%, 10%, 1); /* main aside nav bg */
+      --c3: hsla(330, 100%, 50%, 0.7); /* header bg */
       --c4: #000; /* footer bg */
       --c5: #fff; /* color */
-      --c6: hsl(20, 100%, 80%); /* footer color */
-      --c7: #000; /* box color */
-      --c8: hsl(20, 100%, 40%); /* link color */
-      --c9: hsl(80, 100%, 40%); /* link active color */
-      --c10: hsla(20, 100%, 0%, 0.9); /* menu backdrop */
-      --c11: hsl(20, 100%, 50%); /* box link color */
-      --c12: hsl(20, 100%, 20%); /* box link color 2 */
-      --c13: hsl(10, 100%, 70%); /* box link color 3 */
+      --c6: hsl(330, 100%, 60%); /* footer color */
+      --c7: #fff; /* box color */
+      --c8: hsl(330, 100%, 50%); /* link color */
+      --c9: hsl(0, 100%, 40%); /* link active color */
+      --c10: hsla(330, 100%, 0%, 0.9); /* menu backdrop */
+      --c11: hsl(330, 100%, 50%); /* box link color */
+      --c12: hsl(330, 100%, 20%); /* box link color 2 */
+      --c13: hsl(330, 100%, 70%); /* box link color 3 */
       --mar: 10px;
       --rad: 20px;
       --fe: blur(3px);
@@ -235,6 +235,8 @@ main>.pad{
    text-align: center;
    font-family: "sirinStencil";
    font-size: 40px;
+   background: var(--c3);
+   border-radius: var(--rad);
 }
 .welcome h1{
    text-align: center;
@@ -313,9 +315,6 @@ a,a:visited{
    color: var(--c8);
    position: relative;
 }
-a:active{
-   color: var(--c9);
-}
 a:not(.box,.fa,.ic)::after{
    content: "";
    display: inline-block;
@@ -345,10 +344,6 @@ a.box:hover{
    background: var(--c11);
    color: var(--c7);
 }
-a.box:active{
-   background: var(--c9);
-   color: var(--c7);
-}
 nav>a.box{
    display: flex;
    flex-flow: nowrap column;
@@ -374,7 +369,4 @@ a.ic,a.ic:visited{
 }
 a.ic:hover{
    color: var(--c7);
-}
-a.ic:active{
-   color: var(--c9);
 }
