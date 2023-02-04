@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
    path.innerHTML = document.baseURI;
    
    // C title
-   Ctitle.innerHTML = title.innerHTML
+   Ctitle.innerHTML = title.innerHTML;
    
    //data
    fetch("https://clone-mahdi.github.io/xml/nav.xml").then(x => x.text()).then(y => nav.innerHTML = menuList.innerHTML = y);
