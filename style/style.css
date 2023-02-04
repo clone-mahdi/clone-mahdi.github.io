@@ -12,29 +12,29 @@
 }
 @media (prefers-color-scheme: dark) {
    :root{
-   --c1: hsl(270, 100%, 10%);
-   --c2: #fff;
-   --c3: hsl(270, 100%, 80%);
-   --c4: hsla(270, 100%, 50%, 0.3);
-   --c5: hsla(270, 100%, 0%, 0.8);
-   --c6: hsl(270, 100%, 60%);
-   --c7: hsl(270, 100%, 40%);
-   --c8: hsl(0, 100%, 50%);
-   --c9: hsl(0, 100%, 50%);
-   --c10: hsla(270, 100%, 50%, 0.7);
-   --bg: var(--c1);
-   --bg2: var(--c3);
-   --bg3: var(--c4);
-   --bg4: #000;
-   --tx: var(--c2);
-   --rad: 20px;
-   --pattern: url("../image/pattern-dark.svg");
+      --c0: hsl(20, 100%, 5%); /* body bg */
+      --c1: hsl(20, 100%, 10%, 1); /* main aside nav bg */
+      --c3: hsla(20, 100%, 50%, 0.7); /* header bg */
+      --c4: #000; /* footer bg */
+      --c5: #fff; /* color */
+      --c6: hsl(20, 100%, 80%); /* footer color */
+      --c7: #000; /* box color */
+      --c8: hsl(20, 100%, 40%); /* link color */
+      --c9: hsl(80, 100%, 40%); /* link active color */
+      --c10: hsla(20, 100%, 0%, 0.9); /* menu backdrop */
+      --c11: hsl(20, 100%, 50%); /* box link color */
+      --c12: hsl(20, 100%, 20%); /* box link color 2 */
+      --c13: hsl(10, 100%, 70%); /* box link color 3 */
+      --mar: 10px;
+      --rad: 20px;
+      --fe: blur(3px);
+      --pattern: url("../image/pattern-dark.svg");
    }
 }
 @media (prefers-color-scheme: light) {
    :root{
       --c0: hsl(210, 100%, 90%); /* body bg */
-      --c1: hsl(210, 100%, 70%, 0.5); /* main aside nav bg */
+      --c1: hsl(210, 100%, 80%, 1); /* main aside nav bg */
       --c3: hsla(210, 100%, 50%, 0.7); /* header bg */
       --c4: #000; /* footer bg */
       --c5: #000; /* color */
@@ -43,7 +43,7 @@
       --c8: hsl(210, 100%, 40%); /* link color */
       --c9: hsl(0, 100%, 40%); /* link active color */
       --c10: hsla(210, 100%, 10%, 0.7); /* menu backdrop */
-      --c11: hsl(210, 100%, 70%); /* box link color */
+      --c11: hsl(210, 100%, 50%); /* box link color */
       --c12: hsl(210, 100%, 80%); /* box link color 2 */
       --c13: hsl(210, 100%, 40%); /* box link color 2 */
       --mar: 10px;
@@ -101,16 +101,18 @@
    user-select: none;
    font-family: "nova", "negaar", monospace;
    outline: none;
+   transition: 0.5s;
 }
-*,*::after,*::before{
+*::after,*::before{
    user-select: none;
-   transition: 0.3s;
+   transition: 0.1s;
 }
 body{
    background-size: 30px;
    margin: 0;
    padding: 0;
    background-color: var(--c0);
+   color: var(--c5);
 }
 header{
    backdrop-filter: var(--fe);
@@ -196,8 +198,9 @@ header{
    direction: ltr;
    user-select: all;
    border-radius: var(--rad) var(--rad) 0 0;
-   background: var(--c3);
+   background: var(--c11);
    overflow: auto;
+   color: var(--c7);
    margin: 20px 20px 0 20px;
    padding: 20px;
 }
@@ -206,7 +209,7 @@ header{
 .menu-list>a.box{
    border-radius: 0;
    margin: 0 20px 0 20px;
-   border-bottom: 4px solid var(--c13);
+   border-bottom: 4px solid var(--c11);
    flex-direction: row;
    background: var(--c12);
 }
@@ -339,7 +342,7 @@ a.box,a.box:visited{
    transition: 0.3s;
 }
 a.box:hover{
-   background: var(--c13);
+   background: var(--c11);
    color: var(--c7);
 }
 a.box:active{
