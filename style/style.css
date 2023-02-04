@@ -210,7 +210,8 @@ header{
    user-select: all;
    border-radius: var(--rad) var(--rad) 0 0;
    background: var(--c11);
-   overflow: auto;
+   overflow-x: auto;
+   overflow-wrap: nowrap;
    color: var(--c7);
    margin: 20px 20px 0 20px;
    padding: 15px;
