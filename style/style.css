@@ -386,4 +386,5 @@ a.ic:hover{
 }
 mark{
    padding: 2px;
+   border-radius: var(--rad);
 }
