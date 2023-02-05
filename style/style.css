@@ -347,7 +347,7 @@ a.box{
    display: flex;
    padding: 0 10px 0 10px;
    border-radius: var(--rad);
-   background: var(--c12);
+   background: var(--c13);
    justify-content: space-between;
    align-items: center;
    margin-bottom: 10px;
