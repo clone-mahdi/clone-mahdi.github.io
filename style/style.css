@@ -427,6 +427,7 @@ mark{
    padding: 2px;
    border-radius: var(--rad);
    background: var(--mark);
+   color: var(--c5);
 }
 img{
    max-width: 100%;
