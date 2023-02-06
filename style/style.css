@@ -43,14 +43,20 @@
       --c8: hsl(210, 100%, 40%); /* link color */
       --c9: hsl(0, 100%, 40%); /* link active color */
       --c10: hsla(210, 100%, 10%, 0.7); /* menu backdrop */
-      --c11: hsl(210, 100%, 50%); /* box link color */
+      --c11: hsl(210, 100%, 50%); /* box link hover bg */
       --c12: hsl(210, 100%, 80%); /* box link color 2 */
-      --c13: hsl(210, 100%, 70%); /* box link color 2 */
+      --c13: hsl(210, 100%, 70%); /* box link bg */
+      --bg1: hsl(260, 100%, 40%);
+      --bg2: hsl(265, 100%, 40%);
+      --bg3: hsl(270, 100%, 40%);
+      --bg4: hsl(275, 100%, 40%);
       --gr0: linear-gradient(45deg,#44f, #f4f);
       --mar: 10px;
       --rad: 20px;
       --fe: blur(3px);
       --sh: 0 0 10px #0008;
+      --hr: hsl(210, 100%, 90%); /* hr color */
+      --mark: linear-gradient(45deg,hsl(260, 100%, 70%),hsl(330, 100%, 70%))
       --pattern: url("../image/pattern.svg");
    }
 }
@@ -248,12 +254,12 @@ main>.pad{
    border-radius: var(--rad);
    backdrop-filter: var(--fe);
 }
-.main-image>img{
+.div-image>img{
    overflow: hidden;
    background: var(--c3) var(--gr0);
    border-radius: var(--rad);
 }
-.welcome h1{
+h1{
    text-align: center;
 }
 aside{
@@ -324,6 +330,22 @@ footer{
 .contact-us>h4{
    line-height: 0;
 }
+article.list>a{
+   font-size: 50px;
+   color: #fff;
+}
+article.list>a:nth-of-type(1){
+   background: var(bg1);
+}
+article.list>a:nth-of-type(2) {
+   background: var(bg2);
+}
+article.list>a:nth-of-type(3) {
+   background: var(bg3);
+}
+article.list>a:nth-of-type(4) {
+   background: var(bg4);
+}
 a{
    all: unset;
    display: inline-block;
@@ -389,8 +411,14 @@ a.ic:hover{
 mark{
    padding: 2px;
    border-radius: var(--rad);
+   background: var(--mark);
 }
 img{
    max-width: 100%;
    max-height: 100%;
+}
+hr{
+   border: unset;
+   height: 0;
+   border-top: dotted 3px var(--hr);
 }
