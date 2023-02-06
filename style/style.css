@@ -29,7 +29,7 @@
       --bg2: hsl(320, 100%, 40%);
       --bg3: hsl(310, 100%, 40%);
       --bg4: hsl(300, 100%, 40%);
-      --gr0: linear-gradient(45deg,#44f, #f4f);
+      --gr0: linear-gradient(45deg,#00a, #a0a);
       --mar: 10px;
       --rad: 20px;
       --fe: blur(3px);
@@ -242,7 +242,7 @@ header{
    border-bottom: 4px solid var(--c11);
    flex-direction: row-reverse;
    background: var(--c13);
-   box-shadow: none!importanti;
+   box-shadow: none !important;
 }
 nav{
    background: var(--c1);
@@ -343,16 +343,16 @@ article.list>a{
    color: #fff;
 }
 article.list>a:nth-of-type(1){
-   background: var(bg1);
+   background: var(--bg1);
 }
 article.list>a:nth-of-type(2) {
-   background: var(bg2);
+   background: var(--bg2);
 }
 article.list>a:nth-of-type(3) {
-   background: var(bg3);
+   background: var(--bg3);
 }
 article.list>a:nth-of-type(4) {
-   background: var(bg4);
+   background: var(--bg4);
 }
 a{
    all: unset;
