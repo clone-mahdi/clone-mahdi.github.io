@@ -1,12 +1,13 @@
-<a class="box" target="_self" href="clone-mahdi.github.io">
+<a class="box" href="clone-mahdi.github.io">
    <i class="fa fa-home"></i>
    <p>صفحه اصلی</p>
 </a>
 
-<a class="box">
+<a class="box" href="https://clone-mahdi.github.io/page/tutorial/">
    <i class="fa fa-list"></i>
    <p>لیست آموزشی</p>
 </a>
+<!--
 <a class="box">
    <i class="fa fa-book-bookmark"></i>
    <p>مرجع</p>
@@ -19,8 +20,9 @@
    <i class="fa fa-code"></i>
    <p>دموها</p>
 </a>
+-->
 
-<a class="box" target="_self" href="https://clone-mahdi.github.io//page/about-me/">
+<a class="box" href="https://clone-mahdi.github.io//page/about-me/">
    <i class="fa fa-user"></i>
    <p>دربارهٔ من</p>
 </a>
