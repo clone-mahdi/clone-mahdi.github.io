@@ -119,11 +119,11 @@
    user-select: none;
    font-family: "nova", "negaar", monospace;
    outline: none;
-   transition: 0.5s;
+   transition: 0.3s;
 }
 *::after,*::before{
    user-select: none;
-   transition: 0.1s;
+   transition: 0.2s;
 }
 body{
    background-size: 30px;
