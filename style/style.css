@@ -46,9 +46,11 @@
       --c11: hsl(210, 100%, 50%); /* box link color */
       --c12: hsl(210, 100%, 80%); /* box link color 2 */
       --c13: hsl(210, 100%, 70%); /* box link color 2 */
+      --gr0: linear-gradient(45deg,#44f, #f4f);
       --mar: 10px;
       --rad: 20px;
       --fe: blur(3px);
+      --sh: 0 0 10px #0008;
       --pattern: url("../image/pattern.svg");
    }
 }
@@ -226,6 +228,7 @@ header{
    border-bottom: 4px solid var(--c11);
    flex-direction: row-reverse;
    background: var(--c13);
+   box-shadow: none;
 }
 nav{
    background: var(--c1);
@@ -245,11 +248,9 @@ main>.pad{
    border-radius: var(--rad);
    backdrop-filter: var(--fe);
 }
-.welcome .profile{
-   text-align: center;
-   font-family: "sirinStencil";
-   font-size: 40px;
-   background: var(--c3);
+.main-image>img{
+   overflow: hidden;
+   background: var(--c3) var(--gr0);
    border-radius: var(--rad);
 }
 .welcome h1{
@@ -357,6 +358,7 @@ a.box{
 a.box:hover{
    background: var(--c11);
    color: var(--c7);
+   box-shadow: var(--sh);
 }
 nav>a.box{
    display: flex;
@@ -387,4 +389,8 @@ a.ic:hover{
 mark{
    padding: 2px;
    border-radius: var(--rad);
+}
+img{
+   max-width: 100%;
+   max-height: 100%;
 }
