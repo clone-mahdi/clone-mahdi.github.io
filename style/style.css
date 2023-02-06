@@ -242,7 +242,7 @@ header{
    border-bottom: 4px solid var(--c11);
    flex-direction: row-reverse;
    background: var(--c13);
-   box-shadow: none;
+   box-shadow: none!importanti;
 }
 nav{
    background: var(--c1);
