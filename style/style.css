@@ -29,7 +29,8 @@
       --bg2: hsl(320, 100%, 40%);
       --bg3: hsl(310, 100%, 40%);
       --bg4: hsl(300, 100%, 40%);
-      --gr0: linear-gradient(45deg,#00a, #a0a);
+      --bg4: hsl(290, 100%, 40%);
+      --gr0: linear-gradient(45deg,#a00, #a0a);
       --mar: 10px;
       --rad: 20px;
       --fe: blur(3px);
@@ -58,6 +59,7 @@
       --bg2: hsl(270, 100%, 40%);
       --bg3: hsl(280, 100%, 40%);
       --bg4: hsl(290, 100%, 40%);
+      --bg4: hsl(300, 100%, 40%);
       --gr0: linear-gradient(45deg,#44f, #f4f);
       --mar: 10px;
       --rad: 20px;
@@ -341,6 +343,7 @@ footer{
 article.list>a{
    font-size: 50px;
    color: #fff;
+   flex-direction: row;
 }
 article.list>a:nth-of-type(1){
    background: var(--bg1);
@@ -350,6 +353,9 @@ article.list>a:nth-of-type(2) {
 }
 article.list>a:nth-of-type(3) {
    background: var(--bg3);
+}
+article.list>a:nth-of-type(4) {
+   background: var(--bg4);
 }
 article.list>a:nth-of-type(4) {
    background: var(--bg4);
