@@ -120,7 +120,6 @@
    font-family: "nova", "negaar", monospace;
    outline: none;
    transition: 0.5s;
-   overflow: hidden;
 }
 *::after,*::before{
    user-select: none;
@@ -253,9 +252,6 @@ nav{
    border-radius: var(--rad);
    backdrop-filter: var(--fe);
 }
-nav *{
-   overflow: visible;
-}
 .pad{
    padding: 10px;
 }
@@ -267,6 +263,7 @@ main>.pad{
    margin: var(--mar);
    border-radius: var(--rad);
    backdrop-filter: var(--fe);
+   overflow: height;
 }
 .div-image>img{
    overflow: hidden;
