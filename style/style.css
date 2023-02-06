@@ -344,7 +344,7 @@ footer{
 article.list>a{
    font-size: 50px;
    color: #fff;
-   flex-direction: row;
+   flex-direction: row-reverse;
 }
 article.list>a:nth-of-type(1){
    background: var(--bg1);
@@ -435,5 +435,5 @@ img{
 hr{
    border: unset;
    height: 0;
-   border-top: dotted 3px var(--hr);
+   border-top: dashed 5px var(--hr);
 }
