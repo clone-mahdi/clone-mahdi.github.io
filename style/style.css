@@ -36,7 +36,7 @@
       --fe: blur(3px);
       --sh: 0 0 10px hsl(330, 100%, 50%);
       --hr: hsl(210, 100%, 5%); /* hr color */
-      --mark: linear-gradient(45deg,hsl(260, 100%, 30%),hsl(330, 100%, 30%))
+      --mark: linear-gradient(45deg,hsl(260, 100%, 30%),hsl(330, 100%, 30%));
       --pattern: url("https://clone-mahdi.github.io/image/pattern-dark.svg");
    }
 }
@@ -66,7 +66,7 @@
       --fe: blur(3px);
       --sh: 0 0 10px #0008;
       --hr: hsl(210, 100%, 90%); /* hr color */
-      --mark: linear-gradient(45deg,hsl(260, 100%, 70%),hsl(330, 100%, 70%))
+      --mark: linear-gradient(45deg,hsl(260, 100%, 70%),hsl(330, 100%, 70%));
       --pattern: url("https://clone-mahdi.github.io/image/pattern.svg");
    }
 }
@@ -252,6 +252,9 @@ nav{
    margin: var(--mar);
    border-radius: var(--rad);
    backdrop-filter: var(--fe);
+}
+nav *{
+   overflow: visible;
 }
 .pad{
    padding: 10px;
