@@ -277,7 +277,7 @@ main>.pad{
    display: flex;
    justify-content: center;
    align-items: center
-   
+   width: 100%;
 }
 img{
    border-radius: var(--rad);
@@ -286,7 +286,7 @@ img{
 img:hover{
    width: 80%;
 }
-img:hover::after{
+img::after{
    content: attr(src);
    display: block;
    width: 90%;
