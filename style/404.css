@@ -2,13 +2,9 @@
    font-family: "negaar";
    src: url("https://clone-mahdi.github.io/font/Negaar.ttf");
 }
-@font-face {
-   font-family: "nova";
-   src: url("https://clone-mahdi.github.io/font/NovaMono.ttf");
-}
 *{
    user-select: none;
-   font-family: "nova", "negaar", monospace;
+   font-family: "negaar", monospace;
    transition: 0.3s;
 }
 *::after,*::before{
