@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", ()=> {
    const title = document.querySelector("title");
    const Ctitle = document.querySelector(".title");
    const path = document.querySelector(".path");
-   const code = document.querySelector("code");
    
    //web icon
    WebIcon.onclick = ()=> {
