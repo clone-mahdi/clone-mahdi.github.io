@@ -456,16 +456,13 @@ hr{
 audio{
    width: 100%;
    color: #fff;
+   text-align: center;
 }
 audio::-webkit-media-controls-enclosure {
    background: var(--c11);
    width: 100%;
    border-radius: var(--rad);
 }
-
-
-
-
 audio::-webkit-media-controls-timeline {}
 audio::-webkit-media-controls-volume-control-container {}
 audio::-webkit-media-controls-volume-control-container.closed {}
