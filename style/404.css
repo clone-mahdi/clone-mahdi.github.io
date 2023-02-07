@@ -1,39 +1,89 @@
+@font-face {
+   font-family: "negaar";
+   src: url("https://clone-mahdi.github.io/font/Negaar.ttf");
+}
+@font-face {
+   font-family: "nova";
+   src: url("https://clone-mahdi.github.io/font/NovaMono.ttf");
+}
+*{
+   user-select: none;
+   font-family: "nova", "negaar", monospace;
+   transition: 0.3s;
+}
+*::after,*::before{
+   user-select: none;
+   transition: 0.2s;
+}
 body{
-            margin: 0;
-            text-align: center;
-            background: black;
-            padding: 0;
-        }
+   margin: 0;
+   background: #fff;
+   padding: 0;
+}
 div{
-           position: fixed;
-           top: 50%;
-           left: 50%;
-           transform: translate(-50%,-50%);
-           display: flex;
-           justify-content: space-between;
-           align-items: center;
-           flex-direction: column;
-           color: #fff;
-        }
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-direction: column;
+   color: #fff;
+   z-index: 1;
+}
 h1{
-           color: #a0f8;
-           font-size: 200px;
-           font-family: monospace;
-        }
+   color: slateblue;
+   font-size: 200px;
+   font-family: monospace;
+   animation: hue 5s infinite;
+}
+a{
+   all: unset;
+   display: inline-block;
+   color: deepskyblue;
+   position: relative;
+}
+a::after{
+   content: "";
+   display: inline-block;
+   background: currentColor;
+   width: 100%;
+   height: 0.1em;
+   bottom: 0.8em;
+   position: relative;
+   transform: rotateY(90deg);
+}
+a:hover::after{
+   transform: rotateY(0deg);
+}
 .e{
-            position: fixed;
-            z-index: -3;
-            writing-mode: vertical-lr;
-            font-family: monospace;
-            font-weight: bold;
-        }
-@keyframes tap{
-            0%{
-                top: -200px;
-                filter: hue-rotate(0deg);
-            }
-            100%{
-                top: 100%;
-                filter: hue-rotate(60deg);
-            }
-        }
+   position: fixed;
+   writing-mode: vertical-lr;
+   font-family: monospace;
+   font-weight: bold;
+}
+@keyframes rain{
+   0%{
+      top: -200px;
+      filter: hue-rotate(0deg);
+   }
+   100%{
+      top: 100%;
+      filter: hue-rotate(60deg);
+   }
+}
+@keyframes hue{
+   0%{
+      filter: hue-rotate(0deg);
+      opacity: 0.5;
+   }
+   50%{
+      filter: hue-rotate(60deg);
+      opacity: 0.8;
+   }
+   100% {
+      filter: hue-rotate(0deg);
+      opacity: 0.5;
+   }
+}
