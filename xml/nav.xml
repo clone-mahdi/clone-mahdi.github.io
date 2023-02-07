@@ -21,7 +21,10 @@
    <p>دموها</p>
 </a>
 -->
-
+<a class="box" href="https://clone-mahdi.github.io/page/music/">
+   <i class="fas fa-music-note"></i>
+   <p>آهنگ ها</p>
+</a>
 <a class="box" href="https://clone-mahdi.github.io/page/about-me/">
    <i class="fa fa-user"></i>
    <p>دربارهٔ من</p>
