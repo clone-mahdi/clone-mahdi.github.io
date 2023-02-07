@@ -276,7 +276,7 @@ main>.pad{
 .div-caver{
    display: flex;
    justify-content: center;
-   align-items: center
+   align-items: center;
    width: 100%;
 }
 img{
