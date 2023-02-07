@@ -453,12 +453,19 @@ hr{
    height: 0;
    border-top: dashed 5px var(--hr);
 }
-audio::-webkit-media-controls-enclosure {
-    background: var(--c13);
-    width: 100%;
-    border-radius: var(--rad);
-    color: #fff;
+audio{
+   width: 100%;
+   color: #fff;
 }
+audio::-webkit-media-controls-enclosure {
+   background: var(--c11);
+   width: 100%;
+   border-radius: var(--rad);
+}
+
+
+
+
 audio::-webkit-media-controls-timeline {}
 audio::-webkit-media-controls-volume-control-container {}
 audio::-webkit-media-controls-volume-control-container.closed {}
