@@ -4,7 +4,7 @@ body{
             background: black;
             padding: 0;
         }
-        div{
+div{
            position: fixed;
            top: 50%;
            left: 50%;
@@ -15,19 +15,19 @@ body{
            flex-direction: column;
            color: #fff;
         }
-        h1{
+h1{
            color: #a0f8;
            font-size: 200px;
            font-family: monospace;
         }
-        .e{
+.e{
             position: fixed;
             z-index: -3;
             writing-mode: vertical-lr;
             font-family: monospace;
             font-weight: bold;
         }
-        @keyframes tap{
+@keyframes tap{
             0%{
                 top: -200px;
                 filter: hue-rotate(0deg);
