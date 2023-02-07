@@ -435,7 +435,7 @@ mark{
    padding-right: 6px;
    padding-left: 6px;
 }
-img{
+img, audio, video{
    max-width: 100%;
    max-height: 100%;
 }
