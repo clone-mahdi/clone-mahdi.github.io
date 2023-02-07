@@ -274,7 +274,7 @@ main>.pad{
    background: var(--c3) var(--gr0);
    border-radius: var(--rad);
 }
-h1{
+h1, h2{
    text-align: center;
 }
 aside{
