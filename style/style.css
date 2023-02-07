@@ -459,9 +459,12 @@ audio{
    text-align: center;
 }
 audio::-webkit-media-controls-enclosure {
-   background: var(--c11);
+   background: var(--c13);
    width: 100%;
    border-radius: var(--rad);
+}
+audio:hover::-webkit-media-controls-enclosure {
+   background: var(--c11);
 }
 audio::-webkit-media-controls-timeline {}
 audio::-webkit-media-controls-volume-control-container {}
