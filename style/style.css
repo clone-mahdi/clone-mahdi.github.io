@@ -269,10 +269,15 @@ main>.pad{
    backdrop-filter: var(--fe);
    overflow: height;
 }
-.div-image>img{
+.div-image>img
+.div-caver>img{
    overflow: hidden;
    background: var(--c3) var(--gr0);
    border-radius: var(--rad);
+   padding: 10px;
+}
+.div-caver>img:hover{
+   padding: 5px;
 }
 h1, h2{
    text-align: center;
