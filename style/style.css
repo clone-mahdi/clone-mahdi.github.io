@@ -66,7 +66,7 @@
       --fe: blur(3px);
       --sh: 0 0 10px #0008;
       --hr: hsl(210, 100%, 90%); /* hr color */
-      --mark: linear-gradient(45deg,hsl(260, 100%, 70%),hsl(330, 100%, 70%));
+      --mark: linear-gradient(45deg,hsl(210, 100%, 70%),hsl(260, 100%, 70%));
       --pattern: url("https://clone-mahdi.github.io/image/pattern.svg");
    }
 }
@@ -428,6 +428,8 @@ mark{
    border-radius: var(--rad);
    background: var(--mark);
    color: var(--c5);
+   padding-right: 6px;
+   padding-left: 6px;
 }
 img{
    max-width: 100%;
