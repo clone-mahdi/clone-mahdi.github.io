@@ -282,19 +282,7 @@ main>.pad{
 }
 img{
    border-radius: var(--rad);
-   width: 60%;
-}
-img:hover{
    width: 80%;
-}
-img::after{
-   content: attr(src);
-   display: block;
-   width: 90%;
-   filter: blur(5px);
-   opacity: 0.5;
-   position: relative;
-   z-index: -1;
 }
 h1, h2{
    text-align: center;
