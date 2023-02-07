@@ -121,7 +121,7 @@
 }
 *{
    user-select: none;
-   font-family: "nova", "negaar", monospace, "emojis";
+   font-family: "nova", "negaar", "emojis", monospace;
    outline: none;
    transition: 0.3s;
 }
