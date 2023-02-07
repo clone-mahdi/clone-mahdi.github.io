@@ -10,6 +10,10 @@
    font-family: "sirinStencil";
    src: url("https://clone-mahdi.github.io/font/sirinStencil.ttf");
 }
+@font-face {
+   font-family: "emojis";
+   src: url("https://clone-mahdi.github.io/font/microsoft.ttf");
+}
 @media (prefers-color-scheme: dark) {
    :root{
       --c0: hsl(330, 100%, 5%); /* body bg */
@@ -117,7 +121,7 @@
 }
 *{
    user-select: none;
-   font-family: "nova", "negaar", monospace;
+   font-family: "nova", "negaar", monospace, "emojis";
    outline: none;
    transition: 0.3s;
 }
