@@ -269,12 +269,17 @@ main>.pad{
    backdrop-filter: var(--fe);
    overflow: height;
 }
-.div-image>img
-.div-caver>img{
+.div-image>img{
    overflow: hidden;
    background: var(--c3) var(--gr0);
    border-radius: var(--rad);
    padding: 10px;
+}
+.div-caver>img{
+   overflow: hidden;
+   background: var(--c3) var(--gr0);
+   border-radius: var(--rad);
+   padding: 20px;
 }
 .div-caver>img:hover{
    padding: 5px;
