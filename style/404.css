@@ -1,0 +1,39 @@
+body{
+            margin: 0;
+            text-align: center;
+            background: black;
+            padding: 0;
+        }
+        div{
+           position: fixed;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%,-50%);
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           flex-direction: column;
+           color: #fff;
+        }
+        h1{
+           color: #a0f8;
+           font-size: 200px;
+           font-family: monospace;
+        }
+        .e{
+            position: fixed;
+            z-index: -3;
+            writing-mode: vertical-lr;
+            font-family: monospace;
+            font-weight: bold;
+        }
+        @keyframes tap{
+            0%{
+                top: -200px;
+                filter: hue-rotate(0deg);
+            }
+            100%{
+                top: 100%;
+                filter: hue-rotate(60deg);
+            }
+        }
