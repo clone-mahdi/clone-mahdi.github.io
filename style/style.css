@@ -26,9 +26,9 @@
       --c8: hsl(330, 100%, 50%); /* link color */
       --c9: hsl(0, 100%, 40%); /* link active color */
       --c10: hsla(330, 100%, 0%, 0.9); /* menu backdrop */
-      --c11: hsl(330, 100%, 50%); /* box link color */
+      --c11: hsl(330, 100%, 40%); /* box link hover bg */
       --c12: hsl(330, 100%, 20%); /* box link color 2 */
-      --c13: hsl(330, 100%, 40%); /* box link color 3 */
+      --c13: hsl(330, 100%, 30%); /* box link bg */
       --bg1: hsl(330, 100%, 40%);
       --bg2: hsl(320, 100%, 40%);
       --bg3: hsl(310, 100%, 40%);
@@ -454,7 +454,10 @@ hr{
    border-top: dashed 5px var(--hr);
 }
 audio::-webkit-media-controls-enclosure {
-    background-color: #c6c6ec;
+    background: var(--c13);
+    width: 100%;
+    border-radius: var(--rad);
+    color: #fff;
 }
 audio::-webkit-media-controls-timeline {}
 audio::-webkit-media-controls-volume-control-container {}
