@@ -272,6 +272,7 @@ main>.pad{
 .div-image>img{
    background: var(--c3) var(--gr0);
    border-radius: var(--rad);
+   width: 100%;
 }
 .div-caver{
    display: flex;
@@ -293,6 +294,7 @@ img::after{
    filter: blur(5px);
    opacity: 0.5;
    position: relative;
+   z-index: -1;
 }
 h1, h2{
    text-align: center;
