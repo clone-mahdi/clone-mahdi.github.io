@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
       e.style.left = Math.random() * Number(window.innerWidth) + "px";
       e.style.fontSize = Math.random() * 20 + 10 + "px";
       e.style.color = "hsla(" + Math.floor(Math.random() * 90 + 180) + ", 100%, 50%," + Math.floor(Math.random() * 50 + 50) + "%)";
-      e.style.animation = "rain " + dur + "ms both linearv" + delay + "ms";
+      e.style.animation = "rain " + dur + "ms both linear " + delay + "ms";
       setTimeout(() => {
          e.remove();
       }, delay + dur);
