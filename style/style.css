@@ -274,6 +274,11 @@ main>.pad{
    border-radius: var(--rad);
    width: 100%;
 }
+.div-image>i {
+   background: var(--c3) var(--gr0);
+   border-radius: var(--rad);
+   width: 80%;
+}
 .div-caver{
    display: flex;
    justify-content: center;
