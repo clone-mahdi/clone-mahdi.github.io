@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
    const body = document.body;
    setInterval(() => {
       var e = document.createElement("span");
-      var dur = 5000;
+      var dur = (Math.random()*2000 + 3000);
       var delay = Math.floor(Math.random() * 2000);
       body.appendChild(e);
       e.classList.add("e");
