@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
    const body = document.body;
    setInterval(() => {
       var e = document.createElement("span");
-      var dur = (Math.random()*2000 + 3000);
+      var dur = ((Math.random()*2000) + 3000);
       var delay = Math.floor(Math.random() * 2000);
       body.appendChild(e);
       e.classList.add("e");
@@ -13,6 +13,6 @@ document.addEventListener("DOMContentLoaded", ()=> {
       e.style.animation = "rain " + dur + "ms both linear " + delay + "ms";
       setTimeout(() => {
          e.remove();
-      }, delay + dur);
+      }, delay + 5000);
    }, 200);
 });
