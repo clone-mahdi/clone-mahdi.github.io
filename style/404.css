@@ -72,16 +72,13 @@ a:hover::after{
    0%{
       filter: hue-rotate(0deg);
       opacity: 0.5;
-      font-size: 150px;
    }
    50%{
       filter: hue-rotate(90deg);
       opacity: 0.8;
-      font-size: 200px;
    }
    100% {
       filter: hue-rotate(0deg);
       opacity: 0.5;
-      font-size: 150px;
    }
 }
