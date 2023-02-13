@@ -285,6 +285,12 @@ main>.pad{
    align-items: center;
    width: 100%;
 }
+.div-text{
+   font-family: monospace;
+   font-weight: bold;
+   padding: 100px;
+   background: var(--c3) var(--gr0);
+}
 img{
    border-radius: var(--rad);
    width: 80%;
