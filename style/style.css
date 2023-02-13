@@ -286,10 +286,13 @@ main>.pad{
    width: 100%;
 }
 .div-text{
+   padding: 20px;
+   background: var(--c3) var(--gr0);
+}
+.div-text>*{
    font-family: monospace;
    font-weight: bold;
-   padding: 100px;
-   background: var(--c3) var(--gr0);
+   font-size: 30px;
 }
 img{
    border-radius: var(--rad);
