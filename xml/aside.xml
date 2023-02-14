@@ -2,23 +2,23 @@
 <section>
    <h4>مطالب آموزشی</h4>
    <div>
-      <a class="box">
+      <a class="box" href="https://clone-mahdi.github.io/page/html/">
          <i class="fa fa-earth"></i>
          <p>آموزش HTML</p>
       </a>
-      <a class="box">
+      <a class="box" href="https://clone-mahdi.github.io/page/css/">
          <i class="fab fa-css3-alt"></i>
          <p>آموزش CSS</p>
       </a>
-      <a class="box">
+      <a class="box" href="https://clone-mahdi.github.io/page/js/">
          <i class="fab fa-js-square"></i>
          <p>آموزش جاوااسکریپت</p>
       </a>
-      <a class="box">
+      <a class="box" href="https://clone-mahdi.github.io/page/svg/">
          <i class="fa fa-bezier-curve"></i>
          <p>آموزش SVG</p>
       </a>
-      <a class="box">
+      <a class="box" href="https://clone-mahdi.github.io/page/tricks/">
          <i class="fa fa-fire"></i>
          <p>ترفند ها</p>
       </a>
