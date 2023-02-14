@@ -122,6 +122,7 @@
 *{
    user-select: none;
    font-family: "nova", "negaar", "emojis", monospace;
+   line-height: 1em;
    outline: none;
    transition: 0.3s;
 }
@@ -478,6 +479,7 @@ audio::-webkit-media-controls-enclosure {
    background: var(--c13);
    width: 100%;
    border-radius: var(--rad);
+   transition: 
 }
 audio:hover::-webkit-media-controls-enclosure {
    background: var(--c11);
