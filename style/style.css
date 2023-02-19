@@ -147,6 +147,7 @@ header{
    z-index: 2;
    grid-area: header;
    background: var(--c3);
+   padding: 10px;
 }
 .menu-bars{
    width: 2em;
