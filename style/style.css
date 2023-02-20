@@ -217,6 +217,7 @@ header{
 .menu-header{
    background: var(--c3);
    text-align: center;
+   padding: 10px;
 }
 .title{
    font-family: "negaar";
