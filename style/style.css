@@ -491,4 +491,13 @@ pre{
    color: #fff;
    border-radius: var(--rad);
    direction: ltr;
+   padding: 10px;
+}
+pre::before{
+   content: attr(lang);
+   display: block;
+   background: #70f;
+   color: red;
+   position: relative;
+   z-index: 0;
 }
