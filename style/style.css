@@ -293,6 +293,7 @@ main>.pad{
    padding: 20px;
    background: var(--c3) var(--gr0);
    border-radius: var(--rad);
+   color: #fff;
 }
 .div-text>*{
    font-family: monospace;
