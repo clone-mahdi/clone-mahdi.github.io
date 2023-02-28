@@ -487,22 +487,25 @@ audio::-webkit-media-controls-enclosure {
 audio:hover::-webkit-media-controls-enclosure {
    background: var(--c11);
 }
-pre{
+code{
    background: #000;
    color: #fff;
    border-radius: var(--rad);
    direction: ltr;
    padding: 10px;
+   font-family: "nova", monospace;
+   direction: ltr;
+   display: block;
 }
-pre::before{
+code::before{
    content: attr(lang);
    display: inline-block;
    background: #70f;
-   color: red;
-   position: absolute;
-   top: 0;
-   left: 0;
+   color: #000;
+   position: relative;
+   top: -10px;
+   left: -10px;
    direction: ltr;
-   border-radius: 0 0 var(--rad) 0;
+   border-radius: var(--rad) 0 var(--rad) 0;
    z-index: 0;
 }
