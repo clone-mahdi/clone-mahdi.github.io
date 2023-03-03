@@ -74,51 +74,6 @@
       --pattern: url("https://clone-mahdi.github.io/image/pattern.svg");
    }
 }
-@media (max-width:43.75em){
-    nav{display: none;}
-    body {
-       display: grid;
-       grid-template-columns: auto;
-       grid-template-rows: auto auto auto 0fr 2fr;
-       grid-template-areas: "header" "main" "aside" "nav" "footer";
-    }
-}
-@media (min-width:43.75em) and (max-width:75em){
-    nav{
-       display: flex;
-       flex-flow: nowrap row;
-       justify-content: space-between;
-       align-items: center;
-       backdrop-filter: var(--fe);
-       grid-area: nav;
-       overflow: auto hidden;
-    }
-    body{
-       background-image: var(--pattern);
-        display:grid;
-        grid-template-columns: auto auto auto;
-        grid-template-rows:auto auto 1fr 2fr auto;
-        grid-template-areas:"header header header""nav nav nav""main main aside""main main aside""footer footer footer";
-    }
-}
-@media (min-width:75em){
-    nav{
-       display: flex;
-       flex-flow: nowrap row;
-       justify-content: space-between;
-       align-items: center;
-       backdrop-filter: var(--fe);
-       grid-area: nav;
-       overflow: auto hidden;
-    }
-    body{
-        display:grid;
-        background-image: var(--pattern);
-        grid-template-columns:8fr 3fr;
-        grid-template-rows:auto auto auto 2fr 2fr auto;
-        grid-template-areas:"header header""main nav""main aside""main aside""main aside""footer footer";
-    }
-}
 *{
    user-select: none;
    font-family: "nova", "negaar", "emojis", monospace;
@@ -254,34 +209,36 @@ header{
    background: var(--c13);
    box-shadow: none !important;
 }
-nav{
-   background: var(--c1);
-   margin: var(--mar);
-   border-radius: var(--rad);
-   backdrop-filter: var(--fe);
-}
 .pad{
    padding: 10px;
 }
 main{
    grid-area: main;
 }
-main>.pad{
+main>article{
    background: var(--c1);
    margin: var(--mar);
    border-radius: var(--rad);
    backdrop-filter: var(--fe);
-   overflow: height;
+   overflow: hidden;
 }
-.div-image>img{
+article.title-artcile{
+   height: 150px;
+   display: flex;
+   justify-content: space-between;
+   flex-flow: row-reverse nowrap;
+   align-items: center;
+}
+article.title-artcile>img{
    background: var(--c3) var(--gr0);
    border-radius: var(--rad);
-   width: 100%;
+   width: 150px;
+   height: 150px;
 }
-.div-image>i {
-   background: var(--c3) var(--gr0);
-   border-radius: var(--rad);
-   width: 80%;
+article.title-artcile>p{
+   margin: 10px;
+   font-size: 25px;
+   text-align: center;
 }
 .div-caver{
    display: flex;
@@ -289,55 +246,12 @@ main>.pad{
    align-items: center;
    width: 100%;
 }
-.div-text{
-   padding: 20px;
-   background: var(--c3) var(--gr0);
-   border-radius: var(--rad);
-   color: #fff;
-}
-.div-text>*{
-   font-family: monospace;
-   font-weight: bold;
-   font-size: 30px;
-}
 img{
    border-radius: var(--rad);
    width: 80%;
 }
 h1, h2{
    text-align: center;
-}
-aside{
-   grid-area: aside;
-}
-section{
-   padding: 10px;
-   grid-area: aside;
-   background: var(--c1);
-   margin: var(--mar);
-   border-radius: var(--rad);
-   backdrop-filter: var(--fe);
-}
-section>h4{
-   text-align: center;
-}
-section>div{
-   display: flex;
-   flex-flow: wrap row;
-   justify-content: space-between;
-   align-items: center;
-}
-section>div>a.box{
-   display: flex;
-   flex-flow: nowrap row;
-   justify-content: space-between;
-   align-items: center;
-   min-height: 30px;
-   margin-top: 0;
-   flex-grow: 1;
-   margin: 5px;
-   overflow: auto hidden;
-   height: auto;
 }
 footer{
    text-align: center;
@@ -503,8 +417,6 @@ code::before{
    background: #70f;
    color: #000;
    position: relative;
-   top: -10px;
-   left: -10px;
    direction: ltr;
    border-radius: var(--rad) 0 var(--rad) 0;
    z-index: 0;
