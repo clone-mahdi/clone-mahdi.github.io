@@ -345,24 +345,6 @@ a.box:hover{
    color: var(--c7);
    box-shadow: var(--sh);
 }
-nav>a.box{
-   display: flex;
-   flex-flow: nowrap column;
-   justify-content: space-between;
-   align-items: center;
-   padding: 5px;
-   margin-top: 0;
-   width: 20%;
-   margin: 5px;
-   height: 50px;
-   background: none;
-}
-nav>a>i{
-   margin: 0;
-   line-height: 0;
-   padding: 0;
-   height: 10px;
-}
 a.ic{
    display: inline-block;
    color: var(--c6);
@@ -396,8 +378,5 @@ audio::-webkit-media-controls-enclosure {
    background: var(--c13);
    width: 100%;
    border-radius: var(--rad);
-   transition: 
-}
-audio:hover::-webkit-media-controls-enclosure {
-   background: var(--c11);
+   transition: 0.3s;
 }
